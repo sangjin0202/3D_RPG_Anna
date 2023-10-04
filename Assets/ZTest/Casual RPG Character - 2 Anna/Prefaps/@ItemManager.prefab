@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7936672826394756822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7936672826394756820}
+  - component: {fileID: 7936672826394756821}
+  m_Layer: 0
+  m_Name: '@ItemManager'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7936672826394756820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936672826394756822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7936672826394756821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7936672826394756822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb5fe6800b343f4790de0787a771d1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  list:
+  - itemcode: 10001
+    name: Sword
+    iconName: icon_27
+    kind: 0
+    itemKind: 1
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  - itemcode: 10002
+    name: Double
+    iconName: icon_0
+    kind: 0
+    itemKind: 1
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  - itemcode: 10003
+    name: Axe
+    iconName: icon_98
+    kind: 0
+    itemKind: 1
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  - itemcode: 11001
+    name: SkillBook
+    iconName: icon_103
+    kind: 21
+    itemKind: 2
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  - itemcode: 12001
+    name: Potion
+    iconName: icon_112
+    kind: 20
+    itemKind: 2
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  - itemcode: 20001
+    name: Key
+    iconName: icon_17
+    kind: 22
+    itemKind: 2
+    att: 0
+    def: 0
+    hp: 0
+    mp: 0
+  atlas: {fileID: 4343727234628468602, guid: 6ca1159ae6f3a0941ab902f7811b3435, type: 2}
